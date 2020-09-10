@@ -1,0 +1,20 @@
+.main-heading{
+    text-align: center;
+}
+.todoListMain{
+}
+.todoListMain .tasksList-container ul{
+    padding: 0;
+}
+.todoListMain .tasksList-container li{
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    list-style-type: none;
+    background: whitesmoke;
+}
+.todoListMain .tasksList-container li:hover{
+    background: #d6314d;
+    color: white;
+    text-decoration-line: line-through;
+}
